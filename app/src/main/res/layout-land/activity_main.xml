@@ -25,8 +25,26 @@
         android:text="@string/btnAddName"
         android:id="@+id/btnAddName" />
 
-    <ListView
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/listOfNames" />
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/listOfNames" />
+
+        <fragment
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            tools:layout="@layout/fragment_name_detail"
+            class="com.example.demoandroid.app.NameDetailFragment"
+            android:id="@+id/detailFragment" />
+
+    </LinearLayout>
+
+
 </LinearLayout>
