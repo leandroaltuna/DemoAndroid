@@ -3,9 +3,23 @@
 
     <string name="app_name">DemoAndroid</string>
     <string name="hello_world">Hello world!</string>
-    <string name="action_settings">Settings</string>
-    <string name="hintAddName">type a name</string>
-    <string name="btnAddName">Send</string>
-    <string name="title_activity_name_detail">NameDetailActivity</string>
+
+    <string name="actionFav">Favorite</string>
+    <string name="actionShare">Share</string>
+    <string name="actionDialog">Dialog</string>
+
+    <string name="msgShare">Share a room that i like me</string>
+    <string name="msgRate">Leave us your rate</string>
+    <string name="msgOn">Yes</string>
+    <string name="msgOff">No</string>
+
+    <string-array name="arrayRate">
+        <item>Good</item>
+        <item>Bad</item>
+    </string-array>
+    <string-array name="dialogOptions">
+        <item>Option A</item>
+        <item>Option B</item>
+    </string-array>
 
 </resources>
