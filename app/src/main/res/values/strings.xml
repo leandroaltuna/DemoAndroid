@@ -2,24 +2,11 @@
 <resources>
 
     <string name="app_name">DemoAndroid</string>
+    <string name="label_tweet_search_loader">download tweets…</string>
+    <string name="label_tweets_not_found">no tweets found</string>
+    <string name="label_tweets_download">successfully downloaded tweets</string>
+    <string name="title_activity_timeline">TimelineActivity</string>
     <string name="hello_world">Hello world!</string>
-
-    <string name="actionFav">Favorite</string>
-    <string name="actionShare">Share</string>
-    <string name="actionDialog">Dialog</string>
-
-    <string name="msgShare">Share a room that i like me</string>
-    <string name="msgRate">Leave us your rate</string>
-    <string name="msgOn">Yes</string>
-    <string name="msgOff">No</string>
-
-    <string-array name="arrayRate">
-        <item>Good</item>
-        <item>Bad</item>
-    </string-array>
-    <string-array name="dialogOptions">
-        <item>Option A</item>
-        <item>Option B</item>
-    </string-array>
+    <string name="action_settings">Settings</string>
 
 </resources>
